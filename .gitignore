@@ -1,0 +1,15 @@
+# Data and Caches
+data/
+cache/
+*.gpkg
+*.csv
+*.html
+*.tif
+*.nc
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
