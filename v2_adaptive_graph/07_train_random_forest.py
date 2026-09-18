@@ -29,11 +29,7 @@ def main():
     print(f"[*] Loading nodes from '{features_csv_path.name}'...")
     nodes_df = pd.read_csv(features_csv_path, low_memory=False)
     
-    # 2. Interpolate Missing Data
-    print("[*] Interpolating missing LST_2024 data (Averaging 2023 & 2025)...")
-    nodes_df['LST_2024_100m'] = (nodes_df['LST_2023_100m'] + nodes_df['LST_2025_100m']) / 2.0
-    
-    # 3. Prepare Tabular Features (X) and Target (Y)
+    # 2. Prepare Tabular Features (X) and Target (Y)
     print("[*] Preparing 2D Tabular Feature Matrix (X)...")
     feature_cols = [
         'LST_2023_100m', 'NDVI_2023_adaptive', 'NDBI_2023_adaptive',

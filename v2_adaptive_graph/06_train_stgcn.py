@@ -46,11 +46,7 @@ def main():
     ], dtype=np.int64)
     edge_index = torch.from_numpy(edge_index_np)
     
-    # 3. Interpolate Missing Data
-    print("[*] Interpolating missing LST_2024 data (Averaging 2023 & 2025)...")
-    nodes_df['LST_2024_100m'] = (nodes_df['LST_2023_100m'] + nodes_df['LST_2025_100m']) / 2.0
-    
-    # 4. Construct 3D Time-Series Tensor
+    # 3. Construct 3D Time-Series Tensor
     print("[*] Constructing 3D Time-Series Tensor (Nodes x Time x Features)...")
     
     # T=0 (2023), T=1 (2024)
