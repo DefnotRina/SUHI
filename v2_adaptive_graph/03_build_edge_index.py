@@ -97,6 +97,10 @@ def main():
     source_coords = np.array([e[0] for e in raw_edges_coords])
     target_coords = np.array([e[1] for e in raw_edges_coords])
     
+    # Calculate Euclidean distance between source and target
+    print("[*] Calculating Physical Distances (Euclidean) between connected nodes...")
+    edge_distances = np.linalg.norm(source_coords - target_coords, axis=1)
+    
     # Query source nodes
     dist_src, idx_src = canonical_tree.query(source_coords, k=1)
     # Query target nodes
@@ -107,10 +111,12 @@ def main():
     
     mapped_sources = canonical_osmids[idx_src[valid_mask]]
     mapped_targets = canonical_osmids[idx_tgt[valid_mask]]
+    mapped_distances = edge_distances[valid_mask]
     
     mapped_edges_df = pd.DataFrame({
         "source": mapped_sources,
-        "target": mapped_targets
+        "target": mapped_targets,
+        "distance_m": mapped_distances
     })
     
     # Remove self-loops if any
@@ -121,8 +127,8 @@ def main():
     print(f"[*] Mapped {len(mapped_edges_df)} valid edges successfully!")
     print(f"[*] Dropped {len(raw_edges_coords) - len(mapped_edges_df)} edges (did not match canonical nodes).")
     
-    # 5. Save Edge Index
-    out_path = script_dir / "edge_index.csv"
+    # 5. Save Weighted Edge Index
+    out_path = script_dir / "edge_index_weighted.csv"
     mapped_edges_df.to_csv(out_path, index=False)
     print(f"[+] Edge index saved to: {out_path.name}")
     
