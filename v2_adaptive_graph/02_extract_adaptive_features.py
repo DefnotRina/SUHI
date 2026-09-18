@@ -110,16 +110,11 @@ def main():
 
     # 4. Spatial KD-Tree Imputation (Fill NaNs with neighbors)
     # Rationale: Raw satellite rasters are notoriously noisy. When buffering nodes, we may
-    # encounter pixels containing NaN (or exactly 0 from Earth Engine cloud masks). 
-    # We use a scipy KD-Tree over the projected spatial coordinates
+    # encounter pixels containing NaN. We use a scipy KD-Tree over the projected spatial coordinates
     # to find the 3 closest geographically valid nodes and mathematically impute the average.
     print("\n==========================================")
     print("[*] Performing Spatial KD-Tree Imputation...")
     print("==========================================")
-    
-    # Pre-process: Earth Engine exports masked pixels as 0. Convert to NaN.
-    for col in processed_cols:
-        nodes_gdf.loc[nodes_gdf[col] == 0, col] = np.nan
     
     # We use the UTM X/Y coordinates (meters) for accurate spatial distance calculation
     coords = np.vstack((nodes_gdf.geometry.x, nodes_gdf.geometry.y)).T
