@@ -50,6 +50,29 @@ def main():
         
     df['color'] = df['LST_2025_100m'].apply(get_color)
     
+    print("[*] Loading Edge Connections...")
+    edges_csv_path = script_dir / "edge_index_weighted.csv"
+    edges_df = pd.read_csv(edges_csv_path)
+    
+    print("[*] Merging WGS84 coordinates into edges...")
+    # Merge source coordinates
+    edges_df = edges_df.merge(df[['osmid', 'lon', 'lat']], left_on='source', right_on='osmid', how='inner')
+    edges_df.rename(columns={'lon': 'src_lon', 'lat': 'src_lat'}, inplace=True)
+    edges_df.drop('osmid', axis=1, inplace=True)
+    
+    # Merge target coordinates
+    edges_df = edges_df.merge(df[['osmid', 'lon', 'lat']], left_on='target', right_on='osmid', how='inner')
+    edges_df.rename(columns={'lon': 'tgt_lon', 'lat': 'tgt_lat'}, inplace=True)
+    edges_df.drop('osmid', axis=1, inplace=True)
+    
+    print("[*] Generating Edge Colors (based on distance)...")
+    def get_edge_color(dist):
+        if dist < 20.0: return [255, 255, 255, 80] # Short edges (white)
+        if dist < 60.0: return [255, 165, 0, 80]   # Medium edges (orange)
+        return [255, 0, 0, 80]                     # Long edges (red)
+        
+    edges_df['color'] = edges_df['distance_m'].apply(get_edge_color)
+    
     print("[*] Rendering PyDeck Map...")
     
     # Define a layer to display on a map
@@ -69,6 +92,18 @@ def main():
         get_fill_color="color",
     )
     
+    # Define LineLayer for the physical edges
+    line_layer = pdk.Layer(
+        "LineLayer",
+        edges_df,
+        get_source_position="[src_lon, src_lat]",
+        get_target_position="[tgt_lon, tgt_lat]",
+        get_color="color",
+        get_width=2,
+        pickable=True,
+        opacity=0.6,
+    )
+    
     # Set the viewport location
     view_state = pdk.ViewState(
         longitude=df["lon"].median(),
@@ -82,7 +117,7 @@ def main():
     
     # Render
     r = pdk.Deck(
-        layers=[layer],
+        layers=[line_layer, layer],
         initial_view_state=view_state,
         map_style="mapbox://styles/mapbox/dark-v10",
         tooltip={"text": "LST 2025: {LST_2025_100m}°C"}
