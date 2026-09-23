@@ -65,16 +65,23 @@ def main():
             .map(apply_scale_factors) \
             .map(get_indices)
         
-        # Take the median pixel across the whole year to remove clouds
-        median_image = dataset.median()
+        # For optical bands (NDVI, NDBI), the median mathematically removes clouds/shadows
+        median_image = dataset.median().unmask(-9999)
+        
+        # For Thermal LST, the MAXIMUM ensures we extract the absolute hottest, sunniest day
+        # This completely eradicates any residual cold clouds in years with >50% cloud cover (e.g. 2024 La Nina)
+        max_image = dataset.max().unmask(-9999)
         
         bands = ['LST', 'NDVI', 'NDBI']
         for band in bands:
             out_file = os.path.join(out_dir, f"{band}_{year}.tif")
             print(f"    -> Exporting {band} to {out_file}...")
             
+            # Select from the correct composite image
+            source_image = max_image if band == 'LST' else median_image
+            
             geemap.ee_export_image(
-                median_image.select(band), 
+                source_image.select(band), 
                 filename=out_file, 
                 scale=scale, 
                 region=region, 

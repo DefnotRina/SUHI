@@ -98,7 +98,7 @@ def main():
             stats = []
             for chunk_geom in tqdm(chunks, total=len(chunks), desc=f"Processing {feature_col}"):
                 geom_list = chunk_geom.to_list()
-                chunk_stats = zonal_stats(geom_list, array, affine=affine, stats="median", nodata=nodata)
+                chunk_stats = zonal_stats(geom_list, array, affine=affine, stats="median", nodata=-9999, all_touched=True)
                 stats.extend(chunk_stats)
             
             nodes_gdf[feature_col] = [s["median"] if s["median"] is not None else np.nan for s in stats]

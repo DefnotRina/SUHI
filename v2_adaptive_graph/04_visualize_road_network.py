@@ -22,7 +22,7 @@ def main():
     features_csv_path = script_dir / "davao_adaptive_node_features.csv"
     
     print(f"[*] Loading 310,000 nodes from '{features_csv_path.name}'...")
-    df = pd.read_csv(features_csv_path, usecols=["osmid", "x", "y", "LST_2025_100m"])
+    df = pd.read_csv(features_csv_path, usecols=["osmid", "x", "y", "LST_2024_100m"])
     
     print("[*] Reprojecting UTM coordinates to WGS84 for PyDeck...")
     gdf = gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.x, df.y), crs="EPSG:32651")
@@ -32,8 +32,8 @@ def main():
     
     print("[*] Generating Thermal Colors (Inferno Palette)...")
     # Use quantiles to ignore extreme outliers
-    vmin = df['LST_2025_100m'].quantile(0.02)
-    vmax = df['LST_2025_100m'].quantile(0.98)
+    vmin = df['LST_2024_100m'].quantile(0.02)
+    vmax = df['LST_2024_100m'].quantile(0.98)
     
     norm = colors.Normalize(vmin=vmin, vmax=vmax)
     # Using 'inferno' - black -> purple -> orange -> yellow/white
@@ -48,7 +48,7 @@ def main():
         rgba = cmap(norm(val))
         return [int(rgba[0]*255), int(rgba[1]*255), int(rgba[2]*255), 200]
         
-    df['color'] = df['LST_2025_100m'].apply(get_color)
+    df['color'] = df['LST_2024_100m'].apply(get_color)
     
     print("[*] Loading Edge Connections...")
     edges_csv_path = script_dir / "edge_index_weighted.csv"
@@ -120,7 +120,7 @@ def main():
         layers=[line_layer, layer],
         initial_view_state=view_state,
         map_style="mapbox://styles/mapbox/dark-v10",
-        tooltip={"text": "LST 2025: {LST_2025_100m}°C"}
+        tooltip={"text": "LST 2024: {LST_2024_100m}°C"}
     )
     
     out_html = script_dir / "suhi_map.html"
