@@ -87,3 +87,25 @@ Building upon the success of the baseline spatial model, we introduced the **Tem
 *   **LSTM Architecture:** We introduced a Long Short-Term Memory (LSTM) module to capture the temporal dynamics. The LSTM processes the time-series for each node and passes its final hidden state to the GraphSAGE convolution to model the spatial diffusion across the road network.
 *   **Massive Accuracy Gain:** Adding the temporal dimension dramatically improved the model's accuracy. While the pure spatial model achieved a lowest MSE of **22.4**, the ST-GCN plummeted to a lowest MSE of **9.2**.
 *   **Conclusion:** This validates the core thesis hypothesis: historical time-series data drastically enhances the network's predictive capabilities regarding future urban heat distribution.
+
+---
+
+## 6. Updated Methodology: The 10-Year Decadal Framework
+
+Based on recent proposal updates, the project scope has been expanded from a 3-year window to a **10-year decadal period**. This significantly strengthens the scientific validity of the thesis and supercharges the Spatio-Temporal AI architecture. The updated methodology is structured as follows:
+
+### 1. Data Collection & Preprocessing (The Cloud-Free Base)
+*   **What we use:** We extract Landsat 8/9 imagery over a 10-year period via Google Earth Engine, generating Annual Maximum Composites for Thermal (LST) and Annual Median Composites for Optical (NDVI/NDBI).
+*   **Why we use it:** A 10-year span captures long-term urban densification. Maximum/Median compositing mathematically eradicates cloud cover across the entire decade, guaranteeing a pristine historical baseline of the city's thermal evolution. This is far superior to single-scene QA band masking, which is vulnerable to persistent tropical clouds.
+
+### 2. Topological Data Engineering (The Adaptive Graph)
+*   **What we use:** We map this 10-year satellite data directly onto the mathematically interpolated OpenStreetMap (OSM) road network (nodes spaced every 30m with DPWH buffers) to create a high-resolution, street-level Adaptive Graph.
+*   **Why we use it:** Standard machine learning treats satellite images as flat Euclidean grids. By building an Adaptive Graph, we force the data to map exactly to the physical structure of the city's road network, capturing how heat actually flows along concrete corridors.
+
+### 3. Temporal Outlier Detection & Spatial Imputation
+*   **What we use:** We compare any given node's temperature in a specific year against its 9-year historical average. If it drops unnaturally (>5°C), it is flagged as a "thin cloud artifact", masked, and patched using a Spatial KD-Tree that averages the 3 closest physical neighbors on the road.
+*   **Why we use it:** With 10 years of data, our baseline average is highly statistically significant. KD-Tree imputation ensures that patched missing values respect the physical continuity of the road topology, preventing the neural network from learning bad patterns from NaNs.
+
+### 4. Comparative Model Training (Supercharging the ST-GCN)
+*   **What we use:** We compare the baseline Random Forest (traditional ML) against our proposed Spatio-Temporal GCN (GraphSAGE + LSTM).
+*   **Why we use it:** Random Forest evaluates points in isolation without knowing how roads connect. The 10-year scope specifically supercharges the LSTM (Long Short-Term Memory) module of the ST-GCN. It allows the network to deeply understand the historical 10-year trajectory of heat buildup at specific structural intersections, resulting in highly accurate future estimations.
