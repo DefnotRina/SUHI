@@ -54,7 +54,8 @@ def main():
     out_dir = os.path.join(os.path.dirname(__file__), "data", "rasters")
     os.makedirs(out_dir, exist_ok=True)
 
-    years = [2023, 2024, 2025]
+    # Process from 2019 to 2025 (7 perfectly balanced years, Landsat 8 only)
+    years = range(2019, 2026)
     for year in years:
         print(f"\n[*] Processing Year {year}...")
         

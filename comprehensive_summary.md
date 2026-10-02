@@ -90,22 +90,22 @@ Building upon the success of the baseline spatial model, we introduced the **Tem
 
 ---
 
-## 6. Updated Methodology: The 10-Year Decadal Framework
+## 6. Updated Methodology: The 7-Year Sensor Fusion Framework (2019-2025)
 
-Based on recent proposal updates, the project scope has been expanded from a 3-year window to a **10-year decadal period**. This significantly strengthens the scientific validity of the thesis and supercharges the Spatio-Temporal AI architecture. The updated methodology is structured as follows:
+Based on rigorous scientific evaluation, the project timeline is structured as a **7-Year Baseline (2019-2025)**. This specific timeframe was mathematically selected to avoid statistical biases caused by changing satellite orbital frequencies, ensuring perfectly consistent temporal sampling for the Spatio-Temporal GCN.
 
-### 1. Data Collection & Preprocessing (The Cloud-Free Base)
-*   **What we use:** We extract Landsat 8/9 imagery over a 10-year period via Google Earth Engine, generating Annual Maximum Composites for Thermal (LST) and Annual Median Composites for Optical (NDVI/NDBI).
-*   **Why we use it:** A 10-year span captures long-term urban densification. Maximum/Median compositing mathematically eradicates cloud cover across the entire decade, guaranteeing a pristine historical baseline of the city's thermal evolution. This is far superior to single-scene QA band masking, which is vulnerable to persistent tropical clouds.
+### 1. Data Collection & Preprocessing (Sensor Fusion)
+*   **What we use:** We strictly utilize **Landsat 8** (for optical NDVI/NDBI and baseline LST) fused with **ECOSTRESS** (for diurnal thermal variations) over a 7-year period via Google Earth Engine. We intentionally exclude Landsat 9.
+*   **Why we use it:** Including Landsat 9 (launched in 2021) would double the sampling frequency (from 16-day to 8-day) halfway through the dataset, artificially inflating the `.max()` LST composites and creating a fake warming trend. By locking strictly to Landsat 8 and ECOSTRESS, we guarantee mathematically identical temporal weighting across all 7 years. ECOSTRESS provides critical daily heat-cycle data that standard mid-morning satellites miss.
 
 ### 2. Topological Data Engineering (The Adaptive Graph)
 *   **What we use:** We map this 10-year satellite data directly onto the mathematically interpolated OpenStreetMap (OSM) road network (nodes spaced every 30m with DPWH buffers) to create a high-resolution, street-level Adaptive Graph.
 *   **Why we use it:** Standard machine learning treats satellite images as flat Euclidean grids. By building an Adaptive Graph, we force the data to map exactly to the physical structure of the city's road network, capturing how heat actually flows along concrete corridors.
 
 ### 3. Temporal Outlier Detection & Spatial Imputation
-*   **What we use:** We compare any given node's temperature in a specific year against its 9-year historical average. If it drops unnaturally (>5°C), it is flagged as a "thin cloud artifact", masked, and patched using a Spatial KD-Tree that averages the 3 closest physical neighbors on the road.
-*   **Why we use it:** With 10 years of data, our baseline average is highly statistically significant. KD-Tree imputation ensures that patched missing values respect the physical continuity of the road topology, preventing the neural network from learning bad patterns from NaNs.
+*   **What we use:** We compare any given node's temperature in a specific year against its 7-year historical average. If it drops unnaturally (>5°C), it is flagged as a "thin cloud artifact", masked, and patched using a Spatial KD-Tree that averages the 3 closest physical neighbors on the road.
+*   **Why we use it:** With 7 years of data, our baseline average is highly statistically significant. KD-Tree imputation ensures that patched missing values respect the physical continuity of the road topology, preventing the neural network from learning bad patterns from NaNs. This powerful mathematical imputation is what allows us to bypass the need for Landsat 9's extra cloud-clearing passes.
 
 ### 4. Comparative Model Training (Supercharging the ST-GCN)
 *   **What we use:** We compare the baseline Random Forest (traditional ML) against our proposed Spatio-Temporal GCN (GraphSAGE + LSTM).
-*   **Why we use it:** Random Forest evaluates points in isolation without knowing how roads connect. The 10-year scope specifically supercharges the LSTM (Long Short-Term Memory) module of the ST-GCN. It allows the network to deeply understand the historical 10-year trajectory of heat buildup at specific structural intersections, resulting in highly accurate future estimations.
+*   **Why we use it:** Random Forest evaluates points in isolation without knowing how roads connect. The 7-year scope specifically supercharges the LSTM (Long Short-Term Memory) module of the ST-GCN. It allows the network to deeply understand the historical trajectory of heat buildup at specific structural intersections over a pre-pandemic, pandemic, and post-pandemic timeline, resulting in highly accurate future estimations.
