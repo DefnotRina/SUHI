@@ -54,24 +54,16 @@ def main():
     edges_csv_path = script_dir / "edge_index_weighted.csv"
     edges_df = pd.read_csv(edges_csv_path)
     
-    print("[*] Merging WGS84 coordinates into edges...")
-    # Merge source coordinates
-    edges_df = edges_df.merge(df[['osmid', 'lon', 'lat']], left_on='source', right_on='osmid', how='inner')
-    edges_df.rename(columns={'lon': 'src_lon', 'lat': 'src_lat'}, inplace=True)
+    print("[*] Merging WGS84 coordinates and Thermal Colors into edges...")
+    # Merge source coordinates, LST values, and colors
+    edges_df = edges_df.merge(df[['osmid', 'lon', 'lat', 'LST_2024_100m', 'color']], left_on='source', right_on='osmid', how='inner')
+    edges_df.rename(columns={'lon': 'src_lon', 'lat': 'src_lat', 'LST_2024_100m': 'src_lst', 'color': 'src_color'}, inplace=True)
     edges_df.drop('osmid', axis=1, inplace=True)
     
     # Merge target coordinates
     edges_df = edges_df.merge(df[['osmid', 'lon', 'lat']], left_on='target', right_on='osmid', how='inner')
     edges_df.rename(columns={'lon': 'tgt_lon', 'lat': 'tgt_lat'}, inplace=True)
     edges_df.drop('osmid', axis=1, inplace=True)
-    
-    print("[*] Generating Edge Colors (based on distance)...")
-    def get_edge_color(dist):
-        if dist < 20.0: return [255, 255, 255, 80] # Short edges (white)
-        if dist < 60.0: return [255, 165, 0, 80]   # Medium edges (orange)
-        return [255, 0, 0, 80]                     # Long edges (red)
-        
-    edges_df['color'] = edges_df['distance_m'].apply(get_edge_color)
     
     print("[*] Rendering PyDeck Map...")
     
@@ -92,16 +84,17 @@ def main():
         get_fill_color="color",
     )
     
-    # Define LineLayer for the physical edges
+    # Define LineLayer for the physical edges (Glowing Thermal effect)
     line_layer = pdk.Layer(
         "LineLayer",
         edges_df,
         get_source_position="[src_lon, src_lat]",
         get_target_position="[tgt_lon, tgt_lat]",
-        get_color="color",
+        get_color="src_color",
         get_width=2,
         pickable=True,
-        opacity=0.6,
+        auto_highlight=True,
+        opacity=0.8,
     )
     
     # Set the viewport location
@@ -115,12 +108,12 @@ def main():
         bearing=0
     )
     
-    # Render
+    # Render (Clean lines only, removing the dot layer)
     r = pdk.Deck(
-        layers=[line_layer, layer],
+        layers=[line_layer],
         initial_view_state=view_state,
         map_style="mapbox://styles/mapbox/dark-v10",
-        tooltip={"text": "LST 2024: {LST_2024_100m}°C"}
+        tooltip={"text": "Temperature: {src_lst}°C"}
     )
     
     out_html = script_dir / "suhi_map.html"

@@ -1,0 +1,358 @@
+--- String 0 ---
+Title
+
+--- String 1 ---
+Authors
+
+--- String 2 ---
+Abstract
+
+--- String 3 ---
+EXTRA
+
+--- String 4 ---
+Crowdsourced air temperatures contrast satellite measures of the urban heat island and its mechanisms
+
+--- String 5 ---
+Zander S Venter 1, Tirthankar Chakraborty 2, Xuhui Lee
+
+--- String 6 ---
+Abstract: The ubiquitous nature of satellite data has led to an explosion of studies on the surface urban heat island (SUHI). Relatively few have simultaneously used air temperature measurements to compare SUHI with the canopy UHI (CUHI), which is more relevant to public health. Using crowdsourced citizen weather stations (>50,000) and satellite data over Europe, we estimate the CUHI and SUHI intensity in 342 urban clusters during the 2019 heat wave. Satellites produce a sixfold overestimate of UHI relative to station measurements (mean SUHI 1.45°C; CUHI 0.26°C), with SUHI exceeding CUHI in 96% of cities during daytime and in 80% at night. Using empirical evidence, we confirm the control of aerodynamic roughness on UHI intensity, but find evaporative cooling to have a stronger overall impact during this time period. Our results support urban greening as an effective UHI mitigation strategy and caution against relying on satellite data for urban heat risk assessments.
+
+
+--- String 7 ---
+GIS-Based Spatio-Temporal Analysis of Vegetation Dynamics, Urban Expansion, and Land Surface Temperature in Davao City
+
+--- String 8 ---
+Richelyn C. DumdumJason Ben R. Paragamac
+
+--- String 9 ---
+How do disparate urbanization and climate change imprint on urban thermal variations? A comparison between two dynamic cities in Southeast Asia
+
+--- String 10 ---
+Discussion:
+
+While the impact of UHI on heat stress is only one of its many impacts, it has been the focus of a large number of studies, especially those looking at interactions between larger-scale phenomena like regional heat stress or global warming and urbanization (30–32). Studies on both individual (17, 33) and multiple cities (16) have shown that the SUHI is usually higher than the CUHI, especially during the daytime, which we confirm by scaling this comparison up to over 342 European cities during a heat wave period. The notably higher magnitude of SUHI has important implications for understanding and attributing the source of heat stress in urban areas. Because air temperature is the major constituent of heat stress, urban-rural air temperature differentials can help isolate the contribution of urbanization to local-scale heat exposure. Epidemiological studies have relied on near-surface air (ambient) temperature measured at fixed sites to quantify thermal exposure (34). However, spatially explicit LST data from satellites are gaining popularity and are being increasingly applied, either directly or for predicting air temperature, to public health risk studies (35, 36). In doing so, researchers run the risk of overestimating the magnitude of temperature exposure as well as the contribution of urbanization to the local temperature. This is particularly concerning given that the upward bias of satellite-based measures of UHI was greatest during conditions that are most relevant to heat risk epidemiology (daytime, low cloud cover, high diurnal temperature ranges, and low wind speeds). Proper quantification of the public health implications of UHI requires dense monitoring networks in cities, and in the absence of these monitoring networks, crowdsourced air temperature measurements can be a reasonable alternative, as we demonstrate in the present study.
+We also find that evapotranspiration and roughness were important determinants of both SUHI and CUHI intensity during this heat wave period (fig. S6). In particular, for the goal of reducing the effect of UHI on human health, urban green spaces remain an important mitigation option given that evapotranspiration was the dominant driver of UHI during the day (Fig. 3). However, urban greening may lead to elevated humidity levels, which is another contributor to human heat stress and can thereby counteract the benefit gained from evaporative cooling (37). In cities where urban greening is constrained by water limitations (e.g., in arid environments), an alternative may involve changing building structure, height, and spacing so as to reduce intracity aerodynamic roughness. This heat mitigation strategy is equally supported by our results, showing that CUHI is exacerbated by greater city-rural roughness differentials, particularly at night. This alternative, while challenging as it requires fundamental changes to the city built environment morphology (24), can be considered for future urban planning.
+
+--- String 11 ---
+Can Trong Nguyen, Amnat Chidthaisong , Atsamon Limsakul, Pariwate Varnakovida, Chaiwat Ekkawatpanit Phan Kieu Diem , Nguyen Thi Hong Diep
+
+--- String 12 ---
+Abstract: The Earth's surface and atmosphere have been substantially modified by the growth of anthropogenic activities and urbanization. Changes in the composition and operation of the urban ecological system will affect the health of city dwellers by increasing the risk of heat exposure, increasing the risk of violence, illness, and mortality, and reducing labor productivity. Davao City is currently undergoing rapid urbanization, and no comprehensive study has examined the effects of the changes on vegetation indices, urban expansion, traffic density, and land surface temperature, which are likely to affect the area. This study analyzes the spatio-temporal change in vegetation indices, built-up expansion, traffic density, and land surface temperature from 2018 to 2022 using Landsat 8 imagery and GIS tools, particularly QGIS. The results show a moderate negative relationship between NDBI and NDVI (r = −0.4313), a strong positive relationship between NDBI and LST (r = 0.6216), and a weak negative relationship between NDVI and LST (r =−0.2495). Results highlight the interconnected influence of urbanization, vegetation dynamics, and thermal conditions within the study area, underscoring the need to integrate green infrastructure, particularly along major road networks, to mitigate rising land surface temperatures.
+
+--- String 13 ---
+Evaluating contributions of urbanization and global climate change to urban land surface temperature change: a case study in Lagos, Nigeria
+
+--- String 14 ---
+Abstract: This study assessed the combined influences of climate change and urbanization on land surface temperature (LST) and surface urban heat island (SUHI) in the Bangkok metropolitan region (BKK) and Ho Chi Minh City metropolitan area (HCM) during 1990–2020. We found climate change evidence from trends and variations of temperature extremes in both cities throughout the past three decades, especially for the significant upward trends of nighttime temperature in HCM (0.23 – 0.3 °C/decade). These cities have been undergoing rapid urbanization, in which HCM has a higher urbanization rate with an annual growth rate of 8.03%/year against BKK (4.26%/year). Landscape metrics have rapidly shifted towards urban aggregation and green space fragmentation along with urbanization. A peer comparison shows that BKK holds a greater urban size and LST intensity, while HCM leads in urban growth and SUHI magnitude. These changes jointly contribute to climbing SUHI intensity, especially the dramatic influence of surface changes. Yet, temperature extremes also play an indispensable role in regulating SUHI magnitude, in which the impact in HCM is considerable compared to the effect in BKK. The research findings provide crucial information for both cities – where incorporation of climate change resilience strategies and SUHI mitigation into the master plans for livable cities are recommended.
+
+--- String 15 ---
+Liying Guo, Lipingg Di, Chen Zhang, Li Lin, Fei Chen, Alamin Molla
+
+--- String 16 ---
+Abstract: This study aims to develop a general method and evaluate the contributions of localized urbanization and global climatechange to long-term urban land surface temperature (ULST) change. Combined daytime and nighttime daily MODISproducts were used to ll data biases from satellite-observed data and applied to tropical regions during dry season from2003 to 2021. Lagos, a fast-growing metropolis in West Africa, is selected as an example for reference. The results aresummarized as follows. 1) Long-term annual ULST is conrmed to be controlled by urbanization, global climate change,and interannual climate variation. 2) Linear regression is used to remove the interannual climate uctuations on long-termobserved LST time series. 3) Urban-rural comparison method has been developed to separate the contributions ofurbanization and global climate change to long-term ULST changes. Both urbanization and global climate change areveried to contribute to the ULST increase with positive trends. 4) Daytime ULST increased the most in the afternoon time ata mean rate of 1.429ºC per decade, with 0.985 ºC (10yr)-1 contributed by urbanization and  0.444 ºC (10yr)-1 contributed byglobal climate change. Nighttime ULST increased the most after midnight at a rate of 0.563ºC (10yr) -1, with 0.56 ºC (10yr)-1 contributed by urbanization and  0.003 ºC (10yr) -1 contributed by global climate change. 5) Urbanization is generally tobe responsible for around 60.97% of the urban warming. The increasing urban-induced hot has been causing urbanresidents to suffer more heat-based health risks and increasing the extreme events. Therefore, the results are of usefulreference for both urbanization and climate change related issues in the geo-science field 
+
+--- String 17 ---
+Urban Effects on Land Surface Temperature in Davao City, Philippines
+
+--- String 18 ---
+Thermal changes along the urban-rural continuums in Southeast Asia
+
+--- String 19 ---
+Thermal intensification and urban land cover change in Southeast Asian capitals: over three decades of satellite observations and trend analysis
+
+--- String 20 ---
+Yuanhui Zhu*, Soe W Myint, Jiquan Chen, Peilei Fan, Karen C Seto, Atul Jain, Jiaguo Qi and Jin Wang
+
+--- String 21 ---
+Myla Ross Tinoy, A. U. Novero, K.P. C. Landicho, Alvin Baloloy, Ariel Blanco
+
+--- String 22 ---
+Yong Le Ng, Ming Han Lim, Yuk Feng Huang & Yee Ling Lee 
+
+--- String 23 ---
+Abstract: Southeast Asia’s (SEA) rapid urbanization has intensified urban heat effects. While previous studies address urban warming at specific time points, the dynamic relationship between land cover and land use (LCLU) changes and land surface temperature (LST) along urban-rural continuums remains understudied. This study examines LST, LCLU, and NDVI changes across 19 SEA cities of varying urbanization levels from 2000 to 2022 using Landsat images. Results show that LST change rates differ by urbanization levels, with built-up lands driving urban warming. Larger cities exhibited more intense and widespread LST increases extending into rural areas. The megacities experienced significant LST growth within 5 km of city centers despite limited built-up expansion. However, some areas in many cities experience decreasing trends of heat. NDVI significantly influenced LST changes through its cooling effect and the warming impact due to vegetation loss caused by urban expansion. Findings support urban planning strategies that balance growth with enhancing green spaces, redirecting growth to smaller cities, and shifting development from city centers to urban outskirts.
+
+--- String 24 ---
+Abstract: Urbanisation in Southeast Asia has intensified land surface warming and Intra-Urban Heat Island Intensity (IUHII) effects. This study examined Land Surface Temperature (LST), IUHII, and Land Use/Land Cover (LULC) changes across eleven Southeast Asian capital cities from 1990 to 2024. LST retrieval employed the radiative transfer equation, while LULC was classified via a Random Forest algorithm with above 97% accuracy. IUHII was calculated from urban–green space temperature differences. Significant warming trends emerged, especially in Vientiane (0.350 °C/year), Kuala Lumpur (0.235 °C/year), and Bangkok (0.215 °C/year). LULC classification revealed major urban expansion with vegetation and water loss. This first multi-decadal, cross-city IUHII assessment in tropical Southeast Asia addresses a key research gap. However, this study is limited by its focus on capital cities, reliance on historical trends, and exclusion of socio-economic and governance factors. Nevertheless, the results provide critical empirical evidence to guide climate-resilient urban planning and support green infrastructure integration.
+
+--- String 25 ---
+Abstract: This study produced spatiotemporal hot and cold spot occurrence maps for Davao City for the period 1994-2019 using land surface temperature (LST) images. Urban heat is theorized to have been affected by some, if not all, of the following impact factors: air pollutant concentrations/particulate matter (PM10), vegetation “abundance” (using EVI), building “density” (NDBI), albedo, topography, and population density. A mobile traverse sampling was performed in the morning and afternoon of 15 April 2019 to measure PM10 in the city’s identified hot spots. The remaining factors were generated from imagery (i.e., Landsat 8, Synthetic Aperture Radar) and obtained from the Philippine Statistics Authority. These factors were analyzed against the LST which was obtained through Project GUHeat’s methodology. The relationships between the factors and LST were studied through multiple and quantile regression models (MRM & QRM). Results showed that variable PM10 does not have any significance in the MRM. Meanwhile, QRM were fitted to different quantile values, namely: 10th, 25th, 50th, 75th, and 90th. It is only at the 90th quantile where all the independent variables are good predictors for the LST. Albedo is the most important predictor for the LST at 10th quantile whereas Elev for the 25th quantile. However, when LST is at the 50th, 75th, and 90th quantiles NDBI is the most significant variable at predicting LST. Reliable spatiotemporal assessment and modelling of surface temperature are essential for urban planning and management to formulate sustainable strategies for the welfare of people and environment.
+
+
+--- String 26 ---
+Integrating Satellite-Based and Participatory Spatial Analyses for Local, Contextualised, and Nuanced Extreme Heat Hotspot Mapping in Overheated Urban Southeast Asia
+
+--- String 27 ---
+aurence L. Delina, Homer Pagkalinawan, Sharon Feliza Ann Macagba
+
+--- String 28 ---
+Abstract: Rapid urbanisation in Southeast Asia intensifies extreme-heat exposure, especially where high population density, extensive impervious surfaces, and limited green cover coincide. This study combines multi-decadal satellite-derived land surface temperature (LST) mapping with spatial regression and community participatory mapping to locate community-level heat clusters of extreme heat in Metro Manila and the Bangkok Metropolitan Area. Using a 1 km grid and a suite of built-environment, infrastructural, natural feature, and socioeconomic covariates (including two policy-oriented efficiency ratios), we find that: (1) LST clusters exhibit significant positive spatial autocorrelation, and (2) a statistically significant quadratic relationship links a building-efficiency ratio to local temperatures in both cities—implying an optimal level of compactness beyond which further densification reduces surface heat (consistent with increased shading and compact-form benefits). In addition, higher population density, dense road networks, and proximity to extensive heat-retaining infrastructure (notably airports) are consistently associated with elevated temperatures, whereas greater greenspace accessibility is associated with cooling. Crucially, participatory mapping supplied fine-scale, lived-experience data that (a) identified microhotspots that LST products missed, (b) revealed exposure pathways linked to travel distances and service access, and (c) highlighted social vulnerabilities and coping practises that inform equitable intervention priorities. Together, the integrated approach yields place-sensitive insights—translating statistical relationships into implementable targets (e.g., green space per capita, building-to-economic activity benchmarks) for targeted greening, shading, and accessibility improvements. We discuss limitations—namely, the 1 km LST resolution and the small participatory sample—and argue that scaling this framework will better guide locally appropriate, equity-centred heat adaptation in megacities.
+
+--- String 29 ---
+Cooling the cities: A comprehensive review of urban heat island mitigation strategies in Southeast Asia
+
+--- String 30 ---
+Conclusions and Recommednations: This study investigated the spatiotemporal distribution of LSTand its quantitative relationships with atmospheric,demographic, and remote sensing-derived parameters in DavaoCity. The results revealed that occupants of the main urbancenter (Districts of Poblacion, Talomo, Agdao, and Buhangin)and residents from coastal barangays of Bunawan and TorilDistricts experienced the warmest temperatures in Davao Cityfor the period 1994-2019. Multiple regression analysis showedthat the air pollutant variable (PM10) exhibited no significance,hence was dropped in the model. Albedo has greater impact inthe MRM followed by NDBI, Elev, Pop_Dens, and EVI.Quantile regression analysis further revealed that at the 90thquantile (31.87 °C – 33.42 °C) where all impact factors are goodpredictors, the presence of buildings in the city (NDBI) showedthe biggest impact for the LST. The result of these two regressionmethods indicated that the models are reliable enough to expressLST of Davao City, but also suggested that other impact factorsare more significant in order to effectively understand thevariations of LST. This study recommends that higher spatialand temporal resolution of satellite imageries should beemployed to continuously improve the HS and CS analyses.Moreover, further research should be done by replacing otherimpact factors in the model and try to include surface moisture,distance to water, solar insolation, and sky view factor. Lastly,to evaluate and compare the urban expansion of other developedareas in Mindanao such as Digos City, Panabo City, and TagumCity performing the same procedure of this study is suggested. 
+
+--- String 31 ---
+Kyaw Zabu Tun, Malay Pramanik, Suraj Kumar Mallick, Rabin Chakrabortty, Bijay Halder, Kanak N. Moharir, Chaitanya Baliram Pande, Mohamed Zhran
+
+--- String 32 ---
+Satellite Remote Sensing of Surface Urban Heat Islands: Progress, Challenges, and Perspective
+
+--- String 33 ---
+Decheng Zhou ,Jingfeng Xiao ,Stefania Bonafoni ,Christian Berger,Kaveh Deilami,Yuyu Zhou ,Steve Frolking ,Rui Yao,Zhi Qiao and José A. Sobrino 
+
+--- String 34 ---
+Abstract: This systematic review synthesizes 27 peer-reviewed studies (2020–2023) on urban heat island (UHI) mitigation in Southeast Asia, focusing on cooling effectiveness and implementation feasibility. In dense cities like Singapore and Kuala Lumpur, green infrastructure—urban forests, green roofs, and street-tree networks—proves most effective, reducing air temperatures by up to 2.6 °C and surface temperatures by 11 °C. Engineered solutions, such as high-albedo coatings and permeable pavements, offer 4–9 °C of surface cooling and added benefits like stormwater control, though tropical humidity, glare, and maintenance pose challenges. Informal settlements demonstrate the value of low-cost, community-led cooling efforts using shade structures and vegetation. Despite these benefits, barriers persist: high costs, limited urban land, and fragmented governance systems hamper the scalability of hybrid green-grey solutions. Evaporation-based strategies are further constrained by complex urban geometries and monsoonal climates. Fewer than 20 % of Southeast Asian cities incorporate UHI mitigation into formal planning frameworks, limiting systemic uptake. To advance climate-resilient urbanism, interdisciplinary collaboration is needed. Future priorities should include long-term monitoring in tropical climates, integrated trials of hybrid interventions, and cost–benefit models that capture health, energy, and flood resilience co-benefits. Embedding these approaches into planning systems, as seen in Bangkok’s zoning reforms and Singapore’s Green Mark, is key to sustainable adaptation.
+
+
+--- String 35 ---
+Abstract: The surface urban heat island (SUHI), which represents the difference of land surface temperature (LST) in urban relativity to neighboring non-urban surfaces, is usually measured using satellite LST data. Over the last few decades, advancements of remote sensing along with spatial science have considerably increased the number and quality of SUHI studies that form the major body of the urban heat island (UHI) literature. This paper provides a systematic review of satellite-based SUHI studies, from their origin in 1972 to the present. We find an exponentially increasing trend of SUHI research since 2005, with clear preferences for geographic areas, time of day, seasons, research foci, and platforms/sensors. The most frequently studied region and time period of research are China and summer daytime, respectively. Nearly two-thirds of the studies focus on the SUHI/LST variability at a local scale. The Landsat Thematic Mapper (TM)/Enhanced Thematic Mapper (ETM+)/Thermal Infrared Sensor (TIRS) and Terra/Aqua Moderate Resolution Imaging Spectroradiometer (MODIS) are the two most commonly-used satellite sensors and account for about 78% of the total publications. We systematically reviewed the main satellite/sensors, methods, key findings, and challenges of the SUHI research. Previous studies confirm that the large spatial (local to global scales) and temporal (diurnal, seasonal, and inter-annual) variations of SUHI are contributed by a variety of factors such as impervious surface area, vegetation cover, landscape structure, albedo, and climate. However, applications of SUHI research are largely impeded by a series of data and methodological limitations. Lastly, we propose key potential directions and opportunities for future efforts. Besides improving the quality and quantity of LST data, more attention should be focused on understudied regions/cities, methods to examine SUHI intensity, inter-annual variability and long-term trends of SUHI, scaling issues of SUHI, the relationship between surface and subsurface UHIs, and the integration of remote sensing with field observations and numeric modeling.
+
+
+--- String 36 ---
+Assessment of Intra-Urban Heat Island in a Densely Populated City Using Remote Sensing: A Case Study for Manila City
+
+--- String 37 ---
+Mark Angelo Purio,Tetsunobu Yoshitake, and Mengu Cho
+
+--- String 38 ---
+Summary:
+ This review shows an exponentially increasing trend in satellite-based SUHI publications since 2005, with large biases in the geographic areas, study time of day, study seasons, and research foci. Local-scale SUHI variations in the daytime and/or summer have received more research attention. Knowledge of SUHI variations and their relationship with air UHIs has been greatly enriched by the past SUHI studies even though some findings such as the relative significance of landscape composition, configuration, and the dominant factors for SUHI variations among cities remained highly disputed. UHI researchers currently face a series of challenges in using satellite LST data, including the differences between satellite-derived LST and air temperature, the impacts of clouds and other factors on LST data, the trade-off between spatial and temporal resolutions, the methods to quantify SUHI intensity, concurrent land cover, land use mapping, accuracy assessment, and attribution of SUHI. Worse still, the resultant uncertainties have been magnified by the wide applications of very limited datasets (e.g., using one image in a season or year) in the SUHI analyses. Given the availability of long-term archive/free data, a large number of images or time-series analyses are strongly recommended for future studies to increase the robustness of the findings. Considerable scope for improving the quality and quantity of LST data and analysis remains. We suggest that more attention be paid to the understudied regions/cities, the methods to calculate SUHI intensity, inter-annual variability and long-term trends of SUHI, scale issues of SUHI, SUHI-SubUHI relationships, and the integration of remote sensing data with field observation and numeric modeling in the future.
+
+--- String 39 ---
+Spatiotemporal Analysis Of Urban Land Surface Temperature (Ulst) In Davao City
+
+--- String 40 ---
+Satellite-derived land surface temperature: Current status and perspectives
+
+--- String 41 ---
+Abstract: Changes in the environment occur in cities due to increased urbanization and population growth. Sustainable Development Goal (SDG) 11 is intrinsically linked to the environment, one facet of which is the need for universal access to secure, inclusive, and accessible green and public places. As urban heat islands (UHI) have the potential to negatively influence cities and their residents, existing resources and data must be used to identify and quantify these effects. To address this, we present the use of satellite-derived (2013–2022) and meteorological data (2014–2020) to assess intra-urban heat islands in Manila City, Philippines. The assessment includes (a) understanding the temporal variability of air temperature measurements and outdoor thermal comfort based on meteorological data, (b) comparative and correlative analysis between common Land-Use Land Cover indicators (Normalized Difference Vegetation Index (NDVI), Normalized Difference Water Index (NDWI) and Normalized Difference Built-up Index (NDBI)) and Land Surface Temperature (LST), (c) spatial and temporal analysis of LST using spatial statistics techniques, and (d) generation of an intra-urban heat island (IUHI) map with a recommended class of action using a suitability analysis model. Finally, the areas that need intervention are compared to the affected population, and suggestions to enhance the thermal characteristics of the city and mitigate the effects of UHI are established.
+
+--- String 42 ---
+Y. Zha,J. Gao &S. Ni
+
+--- String 43 ---
+Zhao-Liang Li 
+, Bo-Hui Tang , Hua Wu , Huazhong Ren , Guangjian Yan , Zhengming Wan , Isabel F. Trigo , José A. Sobrino 
+
+--- String 44 ---
+Abstract: Land surface temperature (LST) is one of the key parameters in the physics of land surface processes from local through global scales. The importance of LST is being increasingly recognized and there is a strong interest in developing methodologies to measure LST from space. However, retrieving LST is still a challenging task since the LST retrieval problem is ill-posed. This paper reviews the current status of selected remote sensing algorithms for estimating LST from thermal infrared (TIR) data. A brief theoretical background of the subject is presented along with a survey of the algorithms employed for obtaining LST from space-based TIR measurements. The discussion focuses on TIR data acquired from polar-orbiting satellites because of their widespread use, global applicability and higher spatial resolution compared to geostationary satellites. The theoretical framework and methodologies used to derive the LST from the data are reviewed followed by the methodologies for validating satellite-derived LST. Directions for future research to improve the accuracy of satellite-derived LST are then suggested.
+
+--- String 45 ---
+Abstract: Remotely sensed imagery is ideally used to monitor and detect land cover changes that occur frequently in urban and peri-urban areas as a consequence of incessant urbanization. It is a lengthy process to convert satellite imagery into land cover map using the existing methods of manual interpretation and parametric image classification digitally. In this paper we propose a new method based on Normalized Difference Built-up Index (NDBI) to automate the process of mapping built-up areas. It takes advantage of the unique spectral response of built-up areas and other land covers. Built-up areas are effectively mapped through arithmetic manipulation of re-coded Normalized Difference Vegetation Index (NDVI) and NDBI images derived from TM imagery. The devised NDBI method was applied to map urban land in the city of Nanjing, eastern China. The mapped results at an accuracy of 92.6% indicate that it can be used to fulfil the mapping objective reliably. Compared with the maximum likelihood classification method, the proposed NDBI is able to serve as a worthwhile alternative for quickly and objectively mapping built-up areas.
+
+--- String 46 ---
+
+Conclusions: This study presents the use of satellite-derived data and meteorological data to assess the presence of an intra-urban heat island in Manila City, Philippines. To address SDG 11 and provide better insights to make cities and human settlements inclusive, safe resilient, and sustainable in terms of UHI, different assessment methods were used and established. The assessment includes (a) understanding the temporal variability of air temperature measurements and outdoor thermal comfort based on meteorological data, (b) comparative and correlative analysis between common LULC indicators (NDVI, NDBI, and NDWI) to LST, (c) spatial and temporal analysis of LST using spatial statistics techniques, and (d) generation of an intra-urban heat island (IUHI) map with a recommended class of action using a suitability analysis model. Finally, the areas that need intervention are compared to the affected population, and suggestions to enhance the thermal characteristics of the city and mitigate the effects of UHI were established. Results show that there exists a clear difference between cold and warm areas within Manila City. Overall, residential areas, asphalted and concrete roads and walkways, and some commercial establishments and buildings exhibit higher surface temperatures compared to areas with vegetation and near bodies of water. Based on the results, mitigation strategies applicable to Manila City were proposed to improve the areas which need intervention.
+
+--- String 47 ---
+Surface warming in global cities is substantially more rapid than in rural background areas
+
+--- String 48 ---
+Zihan Liu, Wenfeng Zhan, Benjamin Bechtel, James Voogt, Jiameng Lai, Tirthankar Chakraborty, Zhi-Hua Wang, Manchun Li, Fan Huang & Xuhui Lee 
+
+--- String 49 ---
+Modeling the influence of land cover dynamics on spatio-temporal variations in land surface temperature in Cagayan de Oro River basin, Mindanao, Philippines
+
+--- String 50 ---
+Abstract: Warming trends in cities are influenced both by large-scale climate processes and by local-scale urbanization. However, little is known about how surface warming trends of global cities differ from those characterized by weather observations in the rural background. Here, through statistical analyses of satellite land surface temperatures (2002 to 2021), we find that the mean surface warming trend is 0.50 ± 0.20 K·decade−1 (mean ± one S.D.) in the urban core of 2000-plus city clusters worldwide, and is 29% greater than the trend for the rural background. On average, background climate change is the largest contributor explaining 0.30 ± 0.11 K·decade−1 of the urban surface warming. In city clusters in China and India, however, more than 0.23 K·decade−1 of the mean trend is attributed to urban expansion. We also find evidence of urban greening in European cities, which offsets 0.13 ± 0.034 K·decade−1 of background surface warming.
+
+--- String 51 ---
+Rylle Adriane Galvez, Hilly Ann Roa-Quiaoit, Frandel Louis Dagoc, Jaime Guihawan & Peter Suson
+
+--- String 52 ---
+Land-use/land cover change and land surface temperature in Metropolitan Manila, Philippines using landsat imagery
+
+--- String 53 ---
+King Joshua Almadrones-Reyes & Nikki Heherson A. Dagamac 
+
+--- String 54 ---
+Reexamining the relationship between surface urban heat island intensity and annual precipitation: Effects of reference rural land cover
+
+--- String 55 ---
+Xiaoshan Yang, 
+Lingye Yao
+
+--- String 56 ---
+Abstract: The onset of agricultural intensification and urban expansion in Cagayan de Oro River basin has been continuously changing its landscape over the years. While it undergoes modifications its land cover, its associated impact on the land surface temperature over the years has not been evaluated. This study aims to model the spatio-temporal dynamics of land cover (2003–2020) and determine its influence on the land surface temperature variations in Cagayan de Oro River basin, Mindanao, Philippines from 2003 to 2020 using geographical information systems (GIS) and remote sensing techniques. Significant changes were observed in annual and perennial croplands which experienced substantial increases and is preceded by built-up areas. Considerable decreases were however recorded in shrubland, grassland, mangroves, and open forest. Between 2003 and 2020, the mean land surface temperature in Cagayan de Oro River basin increased by 5.48 ℃. The results indicate that built-up areas and bareland consistently recorded the highest mean LST values, while water bodies, mangroves, and forest cover had the lowest temperatures. This study promotes evidence-based decision-making for sustainable land use planning and management to mitigate the increasing land surface temperature in Cagayan de Oro River basin.
+
+
+
+--- String 57 ---
+Abstract: Remote sensing technology has been widely used to address the issue of urbanization for monitoring. In Metropolitan Manila, Philippines, there is a decline in vegetation over the last decade. This leads to the excess heat in the surface temperature and a phenomenon known as Urban Heat Island. In this study, the land surface temperature (LST), land-use/land cover changes (LULC), normalized difference vegetation index (NDVI) and normalized difference built-up index (NDBI) in 2001 and 2019 were retrieved using Landsat 7 Enhanced Thematic Mapper + (ETM +). Our results showed the following: (i) an increase in the mean temperature of 4.02 °C from 2001 to 2019 in MM, (ii) rise in NDBI and a decline in NDVI values is correlated with an increase in LST over the last years in MM; (iii) LULC maps affirmed the highest occupancy of built-up areas caused by possible urban sprawl explaining the increase in warming in MM. This study provides added evidence that urbanization activities in Metro Manila leads to a warming effect that drives discomfort to many average Filipinos. Hence, environmental policies that would implement proper urban design utilizing more green spaces is recommended for local government units in MM to support.
+
+
+
+--- String 58 ---
+Abstract: Previous studies have shown that surface urban heat island intensity (SUHII) across cities is significantly positively correlated with mean annual precipitation (MAP), including linear and nonlinear correlations. Different explanations for these SUHII–MAP relations have been suggested, yet a systematic examination of the impact of variability in reference rural land cover on geographic variations of daytime SUHII and the relation with MAP is still lacking. In this study, the previously proposed SUHII–MAP relations are reexamined by investigating 60 cities across North America and 346 cities across the globe, respectively. The focus of the study is on the role of variability of reference land cover types in the SUHII–MAP relations. The 10-yr time series of satellite-observed land surface temperature, precipitation and solar radiation data, in conjunction with global land cover data, are used for analysis. Our results confirm the reproducibility of both the linear and nonlinear SUHII–MAP relations; nevertheless, the significant positive correlations between the daytime SUHII and the MAP are found to be dependent mainly on the variability of the reference land cover types associated with MAP levels (i.e., varying from desert to tree cover). In contrast, when a constant land cover type is taken as the reference, no significant correlations between the daytime SUHII and the MAP are observed. The finding highlights that respecting SUHI intensity as a relative measure and accounting for variability of reference land cover is of crucial importance for proper interpretation and understanding of SUHI.
+
+
+--- String 59 ---
+When the city heats up: mapping urban heat risks through environmental and socioeconomic factors in Quezon City, Philippines
+
+--- String 60 ---
+Aerol Cedrick Treyes
+
+--- String 61 ---
+Benchmarking Landsat-8 Collection 2 Level-2 Land Surface Temperature Accuracy Using SURFRAD Stations: Effects of Seasonality and Atmospheric Water Vapor
+
+--- String 62 ---
+Almustafa AbdElkader Ayek ,Mohannad Ali Loho ,Nasser Ibrahem ,Afnan Abdullah Alturki ,Youssef M. Youssef, and Mayada Abdelkader Abdelaziz
+
+--- String 63 ---
+Abstract: While urbanization drives economic growth and development, it also intensifies urban heat, worsened by climate change and urban heat island effects, which continue to threaten public health, livability, and urban resilience in cities. This study develops and maps a localized heat risk index (HRI) for Quezon City, Philippines, integrating environmental exposure and socioeconomic vulnerability variables through a weighted framework derived using analytic hierarchy process based on expert input. Spatial analysis revealed that 81% of barangays, accounting for 70% of the city’s population, fall under high-risk HRI classification (0.61–0.80), with the highest mean HRI recorded in Barangay Manresa (0.731). High-risk areas are concentrated in the southern and southwestern zones of the city, characterized by dense urbanization, limited vegetation, and high surface temperatures. Intraurban heat islets, covering 31% of the study area, strongly overlap with high-risk HRI barangays, emphasizing the compounded effects of environmental and socioeconomic factors on heat risk. The study provides insights to complement the Quezon City Enhanced Local Climate Change Action Plan 2021–2050 by identifying priority areas for implementing nature-based solutions, such as expanding green corridors and enhancing urban biodiversity. These findings highlight the critical role of integrating vegetation, reflective surfaces, and reduced built-up densities in mitigating heat risks and improving urban resilience. The HRI framework offers a replicable model for assessing urban heat risks, supporting evidence-based policymaking, and enhancing adaptive capacity in other rapidly urbanizing cities
+
+--- String 64 ---
+Abstract: Land Surface Temperature (LST) is essential for climate monitoring, drought assessment, and urban heat analysis. Despite its importance, the Landsat-8 Collection 2 Level-2 (C2L2) LST product has not been rigorously validated using ground measurements—a critical gap this study addresses. We present the first comprehensive accuracy assessment using 382 coincident satellite–ground observations collected from seven Surface Radiation Budget Network (SURFRAD) stations distributed across diverse climatic regions of the United States during the period 2023–2025. The validation results indicate strong overall agreement between satellite-derived and ground-measured temperatures, yielding an RMSE of 4.20 °C, a coefficient of determination (R2) of 0.91, and a Pearson correlation coefficient (r) of 0.98. These statistics demonstrate the high reliability of the C2L2 LST product across a wide range of environmental conditions. Nevertheless, a systematic warm bias of 1.75 °C was observed, indicating a tendency toward temperature overestimation. Model performance exhibited pronounced seasonal variability. The highest accuracy was achieved during winter conditions (RMSE = 2.17 °C; r = 0.99), whereas performance declined considerably during summer months (RMSE = 5.84 °C; r = 0.91). Analysis of atmospheric water vapor content revealed significant associations with retrieval errors at high-elevation and arid locations, particularly at FPK (r = 0.78) and DRA (r = 0.75), based on 106 matched observations. These relationships provide important insight into the atmospheric factors contributing to seasonal variations in retrieval accuracy. Temperature-dependent analyses further demonstrated that retrieval uncertainty increases with surface temperature. Performance progressively deteriorated from cooler to warmer thermal regimes, with RMSE values increasing from approximately 2.05 °C for temperatures below 20 °C to 5.71 °C for temperatures exceeding 40 °C. Spatial evaluation also revealed substantial differences among stations. Relatively homogeneous, low-elevation sites exhibited superior performance (GWN: RMSE = 2.60 °C; SXF: RMSE = 2.55 °C), whereas stations located in mountainous or topographically complex environments showed reduced accuracy (TBL: RMSE = 5.14 °C; FPK: RMSE = 5.62 °C). These outcomes emphasize the influence of terrain complexity and atmospheric heterogeneity on LST retrieval performance. Overall, this study establishes the first comprehensive benchmark for evaluating the reliability of Landsat-8 C2L2 LST products. The results provide valuable guidance for their application in climate research, precision agriculture, hydrological modeling, and environmental monitoring. Furthermore, the findings identify specific environmental conditions requiring enhanced validation efforts and suggest opportunities for future algorithm refinement through improved atmospheric correction procedures and more accurate surface emissivity characterization.
+
+--- String 65 ---
+The effect of urbanization on temperature indices
+in the Philippine
+
+--- String 66 ---
+John A. Manalo, Jun Matsumoto, Hiroshi G. Takahashi, Marcelino Q. Villafuerte II, Lyndon Mark P. Olaguera, Guoyu Ren, and Thelma A. Cinco
+
+--- String 67 ---
+Abstract: This paper presents a comprehensive analysis of the effect of urbanization on the surface air temperature (SAT) from 1951 to 2018 in the Philippines. The daily minimum temperature (Tmin) and daily maximum temperature (Tmax) records from 34 meteorological stations were used to derive extreme temperature indices. These stations were then classified as urban or rural based on satellite night‐lights. The results showed a significant difference in the SAT trends between urban and rural stations, indicative of the effect of urbanization in the country. Larger and more significant warming trends were observed in indices related to Tmin than those related to Tmax. In particular, the effects of urbanization were significant in the annual index series of Tmin, diurnal temperature range, minimum Tmin, percentage of days when Tmin was less than the 10th percentile (TN10p), percentage of days when Tmin was greater than 90th percentile (TN90p), and the number of coldest nights. The effects of urbanization were not as clear on the index series of maximum Tmax (TXx), minimum Tmax (TXn), percentage of days when Tmax was less than 10th percentile (TX10p), and the number of hottest days. The effects of urbanization on the annual series of extreme temperature indices were statistically significant at the 95% confidence level, with the exception of Tmax, TXn, TXx, TX10p, and the number of hottest days. Further analysis revealed that the effect of urbanization was the greatest during the DJF (December–January–February) season. These findings serve as a
+
+--- String 68 ---
+Use of normalized difference built-up index in automatically mapping urban areas from TM imagery
+
+--- String 69 ---
+Abstract: Remotely sensed imagery is ideally used to monitor and detect land cover changes that occur frequently in urban and peri-urban areas as a consequence of incessant urbanization. It is a lengthy process to convert satellite imagery into land cover map using the existing methods of manual interpretation and parametric image classification digitally. In this paper we propose a new method based on Normalized Difference Built-up Index (NDBI) to automate the process of mapping built-up areas. It takes advantage of the unique spectral response of built-up areas and other land covers. Built-up areas are effectively mapped through arithmetic manipulation of re-coded Normalized Difference Vegetation Index (NDVI) and NDBI images derived from TM imagery. The devised NDBI method was applied to map urban land in the city of Nanjing, eastern China. The mapped results at an accuracy of 92.6% indicate that it can be used to fulfil the mapping objective reliably. Compared with the maximum likelihood classification method, the proposed NDBI is able to serve as a worthwhile alternative for quickly and objectively mapping built-up areas.
+
+--- String 70 ---
+Conclusions: The Philippines experiences several climatic hazards and environmental challenges as a result of climate change and urbanization. As such, it is essential to obtain an indepth understanding of extreme climate change and the potential impact of urbanization on observed climatic change. Cinco et al. (2014) analysed temperature trends in the Philippines, suggesting that days and nights were becoming warmer. However, their findings were influenced by several factors, such as urbanization, which plays an important role in observed temperature trends.
+
+Findings:
+Nights are warming faster than days: Urbanization has significantly increased minimum (nighttime) temperatures ($T_{min}$) in the Philippines, while its effect on maximum (daytime) temperatures ($T_{max}$) is much weaker.
+
+Extremes are shifting: Due to urbanization, there is a significant decrease in the number of cold nights and a corresponding increase in warm nights.
+
+Shrinking temperature gap: Because nighttime temperatures are rising faster than daytime temperatures, the diurnal temperature range (the difference between the daily high and low) is significantly decreasing.
+
+Seasonal peak: The warming effect caused by urbanization is most intense during the cool and dry season (December–January–February).
+
+--- String 71 ---
+Estimation of land surface temperature–vegetation abundance relationship for urban heat island studies
+
+--- String 72 ---
+Qihao Weng, Dengsheng Lu, Jacquelyn Schubring 
+
+--- String 73 ---
+Abstract: The Earth's surface and atmosphere have been substantially modified by the growth of anthropogenic activities and urbanization. Changes in the composition and operation of the urban ecological system will affect the health of city dwellers by increasing the risk of heat exposure, increasing the risk of violence, illness, and mortality, and reducing labor productivity. Davao City is currently undergoing rapid urbanization, and no comprehensive study has examined the effects of the changes on vegetation indices, urban expansion, traffic density, and land surface temperature, which are likely to affect the area. This study analyzes the spatio-temporal change in vegetation indices, built-up expansion, traffic density, and land surface temperature from 2018 to 2022 using Landsat 8 imagery and GIS tools, particularly QGIS. The results show a moderate negative relationship between NDBI and NDVI (r = −0.4313), a strong positive relationship between NDBI and LST (r = 0.6216), and a weak negative relationship between NDVI and LST (r =−0.2495). Results highlight the interconnected influence of urbanization, vegetation dynamics, and thermal conditions within the study area, underscoring the need to integrate green infrastructure, particularly along major road networks, to mitigate rising land surface temperatures.
+
+--- String 74 ---
+Abstract: Remote sensing of urban heat islands (UHIs) has traditionally used the Normalized Difference Vegetation Index (NDVI) as the indicator of vegetation abundance to estimate the land surface temperature (LST)–vegetation relationship. This study investigates the applicability of vegetation fraction derived from a spectral mixture model as an alternative indicator of vegetation abundance. This is based on examination of a Landsat Enhanced Thematic Mapper Plus (ETM+) image of Indianapolis City, IN, USA, acquired on June 22, 2002. The transformed ETM+ image was unmixed into three fraction images (green vegetation, dry soil, and shade) with a constrained least-square solution. These fraction images were then used for land cover classification based on a hybrid classification procedure that combined maximum likelihood and decision tree algorithms. Results demonstrate that LST possessed a slightly stronger negative correlation with the unmixed vegetation fraction than with NDVI for all land cover types across the spatial resolution (30 to 960 m). Correlations reached their strongest at the 120-m resolution, which is believed to be the operational scale of LST, NDVI, and vegetation fraction images. Fractal analysis of image texture shows that the complexity of these images increased initially with pixel aggregation and peaked around 120 m, but decreased with further aggregation. The spatial variability of texture in LST was positively correlated with those in NDVI and in vegetation fraction. The interplay between thermal and vegetation dynamics in the context of different land cover types leads to the variations in spectral radiance and texture in LST. These variations are also present in the other imagery, and are responsible for the spatial patterns of urban heat islands. It is suggested that the areal measure of vegetation abundance by unmixed vegetation fraction has a more direct correspondence with the radiative, thermal, and moisture properties of the Earth's surface that determine LST.
+
+--- String 75 ---
+Google Earth Engine: Planetary-scale geospatial analysis for everyone
+
+--- String 76 ---
+Noel Gorelick, Matt Hancher, Mike Dixon, Simon Ilyushchenko, David Thau , Rebecca Moore
+
+--- String 77 ---
+Abstract: Google Earth Engine is a cloud-based platform for planetary-scale geospatial analysis that brings Google's massive computational capabilities to bear on a variety of high-impact societal issues including deforestation, drought, disaster, disease, food security, water management, climate monitoring and environmental protection. It is unique in the field as an integrated platform designed to empower not only traditional remote sensing scientists, but also a much wider audience that lacks the technical capacity needed to utilize traditional supercomputers or large-scale commodity cloud computing resources.
+
+--- String 78 ---
+Abstract: Remote sensing technology has been widely used to address the issue of urbanization for monitoring. In Metropolitan Manila, Philippines, there is a decline in vegetation over the last decade. This leads to the excess heat in the surface temperature and a phenomenon known as Urban Heat Island. In this study, the land surface temperature (LST), land-use/land cover changes (LULC), normalized difference vegetation index (NDVI) and normalized difference built-up index (NDBI) in 2001 and 2019 were retrieved using Landsat 7 Enhanced Thematic Mapper + (ETM +). Our results showed the following: (i) an increase in the mean temperature of 4.02 °C from 2001 to 2019 in MM, (ii) rise in NDBI and a decline in NDVI values is correlated with an increase in LST over the last years in MM; (iii) LULC maps affirmed the highest occupancy of built-up areas caused by possible urban sprawl explaining the increase in warming in MM. This study provides added evidence that urbanization activities in Metro Manila leads to a warming effect that drives discomfort to many average Filipinos. Hence, environmental policies that would implement proper urban design utilizing more green spaces is recommended for local government units in MM to support.
+
+
+
+--- String 79 ---
+
+Extra Info:
+
+Median Compositing Rationale & Methodology
+"As an illustrative example, a user might wish to compute the difference between two seasonal composites, to highlight the changes due to phenology or snow-cover. A simplistic example of this could be expressed using the Earth Engine client library as the subtraction of two composite images (Listing 1). This code creates two filtered collections, one of all Landsat 8 images for November, December, and January, and a second of all Landsat 8 images from June, July, and August. A temporal median value is computed for each band in each collection (to minimize the effects of cloud and cloud shadows), and the resulting composites are subtracted to compute the change in values. This computational description is represented by the DAG in Fig. 3."
+
+Cloud Screening & QA Masking Applications
+"Hansen et al. (2013) characterized forest extent, loss, and gain from 2000 to 2012 using decision trees generated from an extensive set of training data and a deep stack of metrics computed from large collections of Landsat scenes. Filtering operations supported by the data catalog reduced the 1.3 M Landsat scenes available at the time to 654,178 growing-season scenes from the study period. These images were then screened for clouds, cloud shadows, and water, and converted from raw Landsat digital numbers to normalized top of atmosphere reflectance. All necessary data access, format conversion, cartographic reprojection, and resampling were handled automatically by the system. Operations in the API were used to compute input metrics, such as per-band percentile values and linear regressions of reflectance values versus image date."   
+
+"They used Earth Engine to select, on a per-pixel basis, the best Landsat scenes for the early and late periods, by first calculating reflectance of the Landsat scenes using LEDAPS (Masek et al., 2006), automatically removing cloudy scenes using Earth Engine's SimpleCloudScore function, computing GCVI values, and finally selecting the scenes with the highest GCVI. Once the best pair of Landsat scenes was determined for a given pixel, weather data stored in Earth Engine and the GCVI were used to compute the predicted yield."
+
+Processing Temporal Stacks at Scale (Streaming Collections)
+"Another common operation in the processing of large remote-sensing datasets is time-series analysis. The same statistical aggregation operations that can be applied spatially can also be applied temporally over the images in a collection to compute per-pixel statistics of an entire image stack through time. These operations are performed using a combination of tiling and aggregation. Each output tile is computed in parallel using lazy image evaluation, in the manner described above. Within each tile, an aggregation operation is performed at each pixel. Tiles of pixel data from the images in the input collection are requested in batches and 'streamed' one at a time through the per-pixel aggregators. Once all inputs that intersect the output tile have been processed, the final transformation is applied at each pixel to generate the output result."   
+
+"This distribution model can be fast and efficient for aggregations that have a small intermediate state (e.g. computing the minimum value), but it can be prohibitively memory-intensive for those that don't (eg.: Pearson's correlation, which requires storing the complete data series at each pixel prior to computing the final result). Streaming through even very large collections can still be fast as long as the size of a tile is significantly smaller than a full image. For example, the entire stack of Landsat 5, 7 and 8 collections, collectively containing more than 5 million images, is less than 2000 tiles deep at any point, and only about 500 deep on average."
+
+--- String 80 ---
+Abstract: This study produced spatiotemporal hot and cold spot occurrence maps for Davao City for the period 1994-2019 using land surface temperature (LST) images. Urban heat is theorized to have been affected by some, if not all, of the following impact factors: air pollutant concentrations/particulate matter (PM10), vegetation “abundance” (using EVI), building “density” (NDBI), albedo, topography, and population density. A mobile traverse sampling was performed in the morning and afternoon of 15 April 2019 to measure PM10 in the city’s identified hot spots. The remaining factors were generated from imagery (i.e., Landsat 8, Synthetic Aperture Radar) and obtained from the Philippine Statistics Authority. These factors were analyzed against the LST which was obtained through Project GUHeat’s methodology. The relationships between the factors and LST were studied through multiple and quantile regression models (MRM & QRM). Results showed that variable PM10 does not have any significance in the MRM. Meanwhile, QRM were fitted to different quantile values, namely: 10th, 25th, 50th, 75th, and 90th. It is only at the 90th quantile where all the independent variables are good predictors for the LST. Albedo is the most important predictor for the LST at 10th quantile whereas Elev for the 25th quantile. However, when LST is at the 50th, 75th, and 90th quantiles NDBI is the most significant variable at predicting LST. Reliable spatiotemporal assessment and modelling of surface temperature are essential for urban planning and management to formulate sustainable strategies for the welfare of people and environment.
+
+
+--- String 81 ---
+Google Earth Engine Cloud Computing Platform for Remote Sensing Big Data Applications: A Comprehensive Review
+
+--- String 82 ---
+Conclusions and Recommednations: This study investigated the spatiotemporal distribution of LSTand its quantitative relationships with atmospheric,demographic, and remote sensing-derived parameters in DavaoCity. The results revealed that occupants of the main urbancenter (Districts of Poblacion, Talomo, Agdao, and Buhangin)and residents from coastal barangays of Bunawan and TorilDistricts experienced the warmest temperatures in Davao Cityfor the period 1994-2019. Multiple regression analysis showedthat the air pollutant variable (PM10) exhibited no significance,hence was dropped in the model. Albedo has greater impact inthe MRM followed by NDBI, Elev, Pop_Dens, and EVI.Quantile regression analysis further revealed that at the 90thquantile (31.87 °C – 33.42 °C) where all impact factors are goodpredictors, the presence of buildings in the city (NDBI) showedthe biggest impact for the LST. The result of these two regressionmethods indicated that the models are reliable enough to expressLST of Davao City, but also suggested that other impact factorsare more significant in order to effectively understand thevariations of LST. This study recommends that higher spatialand temporal resolution of satellite imageries should beemployed to continuously improve the HS and CS analyses.Moreover, further research should be done by replacing otherimpact factors in the model and try to include surface moisture,distance to water, solar insolation, and sky view factor. Lastly,to evaluate and compare the urban expansion of other developedareas in Mindanao such as Digos City, Panabo City, and TagumCity performing the same procedure of this study is suggested. 
+
+--- String 83 ---
+Meisam Amani; Arsalan Ghorbanian; Seyed Ali Ahmadi; Mohammad Kakooei; Armin Moghimi; S. Mohammad Mirmazloumi
+
+--- String 84 ---
+Abstract: Remote sensing (RS) systems have been collecting massive volumes of datasets for decades, managing and analyzing of which are not practical using common software packages and desktop computing resources. In this regard, Google has developed a cloud computing platform, called Google Earth Engine (GEE), to effectively address the challenges of big data analysis. In particular, this platform facilitates processing big geo data over large areas and monitoring the environment for long periods of time. Although this platform was launched in 2010 and has proved its high potential for different applications, it has not been fully investigated and utilized for RS applications until recent years. It was observed that Landsat and Sentinel datasets were extensively utilized by GEE users. Moreover, supervised machine learning algorithms, such as Random Forest, were more widely applied to image classification tasks. GEE has also been employed in a broad range of applications, such as Land Cover/land Use classification, hydrology, urban planning, natural disaster, climate analyses, and image processing. It was generally observed that the number of GEE publications have significantly increased during the past few years, and it is expected that GEE will be utilized by more users from different fields to resolve their big data processing challenges.
+
+--- String 85 ---
+Extra Info:
+
+"Landsat satellites have optical sensors, the images of which may be obscured by clouds. Therefore, temporal cloud detecting, masking, and removing are essential preprocessing steps in different applications, such as image classifications using multitemporal imagery [12]."
+
+--- String 86 ---
+Abstract: Changes in the environment occur in cities due to increased urbanization and population growth. Sustainable Development Goal (SDG) 11 is intrinsically linked to the environment, one facet of which is the need for universal access to secure, inclusive, and accessible green and public places. As urban heat islands (UHI) have the potential to negatively influence cities and their residents, existing resources and data must be used to identify and quantify these effects. To address this, we present the use of satellite-derived (2013–2022) and meteorological data (2014–2020) to assess intra-urban heat islands in Manila City, Philippines. The assessment includes (a) understanding the temporal variability of air temperature measurements and outdoor thermal comfort based on meteorological data, (b) comparative and correlative analysis between common Land-Use Land Cover indicators (Normalized Difference Vegetation Index (NDVI), Normalized Difference Water Index (NDWI) and Normalized Difference Built-up Index (NDBI)) and Land Surface Temperature (LST), (c) spatial and temporal analysis of LST using spatial statistics techniques, and (d) generation of an intra-urban heat island (IUHI) map with a recommended class of action using a suitability analysis model. Finally, the areas that need intervention are compared to the affected population, and suggestions to enhance the thermal characteristics of the city and mitigate the effects of UHI are established.
+
+--- String 87 ---
+Google Earth Engine Open-Source Code for Land Surface Temperature Estimation from the Landsat Series
+
+--- String 88 ---
+
+Conclusions: This study presents the use of satellite-derived data and meteorological data to assess the presence of an intra-urban heat island in Manila City, Philippines. To address SDG 11 and provide better insights to make cities and human settlements inclusive, safe resilient, and sustainable in terms of UHI, different assessment methods were used and established. The assessment includes (a) understanding the temporal variability of air temperature measurements and outdoor thermal comfort based on meteorological data, (b) comparative and correlative analysis between common LULC indicators (NDVI, NDBI, and NDWI) to LST, (c) spatial and temporal analysis of LST using spatial statistics techniques, and (d) generation of an intra-urban heat island (IUHI) map with a recommended class of action using a suitability analysis model. Finally, the areas that need intervention are compared to the affected population, and suggestions to enhance the thermal characteristics of the city and mitigate the effects of UHI were established. Results show that there exists a clear difference between cold and warm areas within Manila City. Overall, residential areas, asphalted and concrete roads and walkways, and some commercial establishments and buildings exhibit higher surface temperatures compared to areas with vegetation and near bodies of water. Based on the results, mitigation strategies applicable to Manila City were proposed to improve the areas which need intervention.
+
+--- String 89 ---
+Sofia L. Ermida, Patrícia Soares, Vasco Mantas, Frank-M. Göttsche, Isabel F. Trigo
+
+--- String 90 ---
+Abstract:
+Land Surface Temperature (LST) is increasingly important for various studies assessing land surface conditions, e.g., studies of urban climate, evapotranspiration, and vegetation stress. The Landsat series of satellites have the potential to provide LST estimates at a high spatial resolution, which is particularly appropriate for local or small-scale studies. Numerous studies have proposed LST retrieval algorithms for the Landsat series, and some datasets are available online. However, those datasets generally require the users to be able to handle large volumes of data. Google Earth Engine (GEE) is an online platform created to allow remote sensing users to easily perform big data analyses without increasing the demand for local computing resources. However, high spatial resolution LST datasets are currently not available in GEE. Here we provide a code repository that allows computing LSTs from Landsat 4, 5, 7, and 8 within GEE. The code may be used freely by users for computing Landsat LST as part of any analysis within GEE.
+
+
+--- String 91 ---
+Extra Info:
+
+On justifying Landsat LST for urban heat mapping:
+
+"Land Surface Temperature (LST) is an important component of the Earth's energy budget, closely linked to the partitioning between sensible and latent heat fluxes. As such, high-resolution satellite-derived LST is increasingly used in various applications related to the assessment of land surface conditions, including mapping the urban extent and the intensity of urban micro-climates, estimating high-resolution evapotranspiration for the management of water resources and assessing vegetation stress [1-15]."   
+
+On justifying temporal consistency and comparability (using Tier 1 data for time-series):   
+
+"The data are organized into Tiers based on their quality. Landsat scenes with the highest available data quality are placed into Tier 1, being suitable for time-series analysis, while the remainder are assigned to Tier 2 [42]. The results shown in this work are entirely based on Tier 1 data, but the code may equally be applied to Tier 2 data."   
+
+On justifying cloud-screening procedures:
+
+"Cloud coverage information, including cloud shadowing, can be retrieved from the quality assessment band (BQA), which is also made available by the USGS through GEE."   
+
+"Based on this information, the main module, Landsat_LST, loads the respective collections of TOA brightness temperatures (BT) and Surface Reflectance (SR). A cloud mask is applied to both using the quality information bands (module cloudmask)."
+
+--- String 92 ---
+Enhancing the spatial and temporal resolution of satellite-derived land surface temperature in urban environments: A systematic literature review
+
+--- String 93 ---
+Robert Andriambololonaharisoamalala , Petra Helmholz ,Ivana Ivánová, Eriita Jones, Susannah Soon ,  Dimitri Bulatov , Yongze Song
+
+--- String 94 ---
+Abstract: The urban heat island effect significantly challenges human health, energy consumption, and overall urban living conditions. Accurate land surface temperature (LST) measurement at fine spatial and temporal scales is essential to understand urban thermal dynamics and develop effective mitigation strategies. However, current satellite sensors offer a trade-off between spatial and temporal resolutions. This review critically examines recent techniques for enhancing the resolutions of satellite-derived LST, focusing on urban applications. A comprehensive search was conducted with Scopus and Web of Science databases using keywords related to LST resolution enhancement. After applying criteria to remove irrelevant and duplicate studies, 60 papers were selected for in-depth analysis. Our findings indicate that LST data from polar and geostationary orbit satellite thermal infrared (TIR) sensors are mainly used for resolution enhancements. The identified enhancement methods fall into three categories: spatial, temporal, and combined spatial and temporal approaches. Existing techniques achieve spatial and temporal resolutions, respectively, 10 m and 15 min. High-resolution LST data are valuable for urban planners and policymakers to assess public health risks, energy use, insurance considerations, and emergency response planning. This review provides insights into current LST resolution enhancement methods and their practical implications in addressing urban heat challenges.
+
+
+
+--- String 95 ---
+Extra Info:
+
+"The urban environment consists of a complex heterogeneous surface that significantly influences the formation of UHI and cannot be adequately described using traditional remote sensing techniques based on land cover classification."
+
+"TIR data usually exhibits a coarser spatial resolution compared to visible and near-infrared (VNIR) data obtained from the same platform because of the difference in energy emission and instrumental limitations... This coarse resolution may lead to a blending effect in areas where one TIR pixel may cover an area that is bigger than the thermal features within it."
+
+"In terms of the variety of land cover, LST at a regional level is insufficient to reflect the variations of LST within cities. To study urban climate, better spatial resolution LST data is required to distinguish between urban characteristics such as streets, buildings, and roads."
+
